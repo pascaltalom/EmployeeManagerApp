@@ -1,2 +1,2 @@
 # EmployeeManagerApp
- EMployee Manager App with SpringBoot and Angular
+ Employee Manager App with SpringBoot and Angular
