@@ -33,7 +33,7 @@ public class EmployeeService {
 
     // Function to fetch an Employee by Id
     public employeeModel findEmployeeById(Long id){
-        return employeeRepo.fetchEmployeeById().orElseThrow(()->new UserNotFoundException("User with Id"+ id + "was Not Found"));
+        return employeeRepo.findEmployeeById(id).orElseThrow(()->new UserNotFoundException("User with Id"+ id + "was Not Found"));
     }
 
 
